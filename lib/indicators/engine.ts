@@ -32,7 +32,7 @@ export function calcIndicator(candles: any[], type: string, period: number) {
       case 'BB': 
         const bb = ti.bollingerbands({ period, stdDev: 2, values: c });
         return { upper: pad(bb.map(b=>b.upper), candles.length), mid: pad(bb.map(b=>b.middle), candles.length), lower: pad(bb.map(b=>b.lower), candles.length) };
-      case 'MACD': res = ti.macd({ values: c, fastPeriod: 12, slowPeriod: 26, signalPeriod: 9 }).map(m => m.histogram); break;
+      case 'MACD': res = ti.macd({ values: c, fastPeriod: 12, slowPeriod: 26, signalPeriod: 9, SimpleMAOscillator: false, SimpleMASignal: false }).map(m => m.histogram); break;
       case 'OBV': res = ti.obv({ close: c, volume: v }); break;
       case 'STOCH': res = ti.stochastic({ high: h, low: l, close: c, period, signalPeriod: 3 }).map(s => s.k); break;
       case 'ADX': res = ti.adx({ high: h, low: l, close: c, period }).map(a => a.adx); break;
