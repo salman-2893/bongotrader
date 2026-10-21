@@ -1,0 +1,7 @@
+{
+  "nav": { "account": "অ্যাকাউন্ট", "chart": "চার্ট", "backtesting": "ব্যাকটেস্ট", "screener": "স্ক্রিনার" },
+  "market": { "openIn": "খুলবে", "closeIn": "বন্ধ হবে", "closed": "মার্কেট বন্ধ" },
+  "chart": { "inactive": "নিষ্ক্রিয়", "saveImage": "ছবি সংরক্ষণ" },
+  "actions": { "retry": "আবার চেষ্টা", "connect": "টেলিগ্রাম সংযুক্ত" },
+  "errors": { "network": "নেটওয়ার্ক ত্রুটি — মার্কেট ডেটা লোড হয়নি।" }
+}

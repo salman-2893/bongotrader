@@ -1,0 +1,7 @@
+{
+  "nav": { "account": "Account", "chart": "Chart", "backtesting": "Backtest", "screener": "Screener" },
+  "market": { "openIn": "OPEN in", "closeIn": "CLOSE in", "closed": "Market Closed" },
+  "chart": { "inactive": "Inactive", "saveImage": "Save as image" },
+  "actions": { "retry": "Retry", "connect": "Connect Telegram" },
+  "errors": { "network": "Network error — could not reach market data." }
+}
